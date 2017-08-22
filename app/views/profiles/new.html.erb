@@ -1,0 +1,5 @@
+<h1>New Profile</h1>
+<p>Current user id: <%= current_user.id %></p>
+<%= render 'form', profile: @profile %>
+
+<%= link_to 'Back', profiles_path %>
